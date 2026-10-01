@@ -201,14 +201,15 @@ function scrollToMap() {
  * Handle navbar background on scroll
  */
 let lastScroll = 0;
+const navbar = document.querySelector('.navbar');
+
 window.addEventListener('scroll', () => {
-    const navbar = document.querySelector('.navbar');
     const currentScroll = window.pageYOffset;
     
-    if (currentScroll > 100) {
-        navbar.style.boxShadow = '0 2px 8px rgba(32, 37, 27, 0.1)';
+    if (currentScroll > 50) {
+        navbar.classList.add('scrolled');
     } else {
-        navbar.style.boxShadow = '0 1px 2px rgba(32, 37, 27, 0.05)';
+        navbar.classList.remove('scrolled');
     }
     
     lastScroll = currentScroll;
