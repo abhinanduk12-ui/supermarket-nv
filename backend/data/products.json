@@ -1,0 +1,482 @@
+[
+  {
+    "id": "P001",
+    "name": "Milk 1L",
+    "category": "Dairy",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_mid",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P002",
+    "name": "Amul Toned Milk",
+    "category": "Dairy",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_mid",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P003",
+    "name": "Full Cream Milk",
+    "category": "Dairy",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_mid",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P004",
+    "name": "Organic Milk",
+    "category": "Dairy",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_top",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P005",
+    "name": "Cheddar Cheese",
+    "category": "Dairy",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_top",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P006",
+    "name": "Mozzarella Cheese",
+    "category": "Dairy",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_top",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P007",
+    "name": "Greek Yogurt",
+    "category": "Dairy",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_bottom",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P008",
+    "name": "Butter 500g",
+    "category": "Dairy",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_bottom",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P009",
+    "name": "Fresh Bananas",
+    "category": "Fruits & Vegetables",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_bottom",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P010",
+    "name": "Red Apples",
+    "category": "Fruits & Vegetables",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_bottom",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P011",
+    "name": "Green Apples",
+    "category": "Fruits & Vegetables",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_bottom",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P012",
+    "name": "Oranges",
+    "category": "Fruits & Vegetables",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_bottom",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P013",
+    "name": "Fresh Tomatoes",
+    "category": "Fruits & Vegetables",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_mid",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P014",
+    "name": "Potatoes 1kg",
+    "category": "Fruits & Vegetables",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_mid",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P015",
+    "name": "Onions 1kg",
+    "category": "Fruits & Vegetables",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_mid",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P016",
+    "name": "Carrots",
+    "category": "Fruits & Vegetables",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_top",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P017",
+    "name": "Spinach",
+    "category": "Fruits & Vegetables",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_top",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P018",
+    "name": "Whole Wheat Bread",
+    "category": "Bakery",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_bottom",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P019",
+    "name": "White Bread",
+    "category": "Bakery",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_bottom",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P020",
+    "name": "Multigrain Bread",
+    "category": "Bakery",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_bottom",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P021",
+    "name": "Croissants",
+    "category": "Bakery",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_mid",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P022",
+    "name": "Bagels",
+    "category": "Bakery",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_mid",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P023",
+    "name": "Coca Cola 2L",
+    "category": "Beverages",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_bottom",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P024",
+    "name": "Pepsi 2L",
+    "category": "Beverages",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_bottom",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P025",
+    "name": "Orange Juice 1L",
+    "category": "Beverages",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_bottom",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P026",
+    "name": "Apple Juice 1L",
+    "category": "Beverages",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_mid",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P027",
+    "name": "Mineral Water 1L",
+    "category": "Beverages",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_mid",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P028",
+    "name": "Green Tea",
+    "category": "Beverages",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_top",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P029",
+    "name": "Coffee Beans 500g",
+    "category": "Beverages",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_top",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P030",
+    "name": "Potato Chips",
+    "category": "Snacks",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_top",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P031",
+    "name": "Chocolate Bar",
+    "category": "Snacks",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_top",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P032",
+    "name": "Cookies Pack",
+    "category": "Snacks",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_top",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P033",
+    "name": "Popcorn",
+    "category": "Snacks",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_top",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P034",
+    "name": "Basmati Rice 5kg",
+    "category": "Rice & Grains",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_bottom",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P035",
+    "name": "Brown Rice 1kg",
+    "category": "Rice & Grains",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_bottom",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P036",
+    "name": "Quinoa 500g",
+    "category": "Rice & Grains",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_mid",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P037",
+    "name": "Pasta 500g",
+    "category": "Rice & Grains",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_top",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P038",
+    "name": "Corn Flakes",
+    "category": "Cereals",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_top",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P039",
+    "name": "Oats 1kg",
+    "category": "Cereals",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_top",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P040",
+    "name": "Granola",
+    "category": "Cereals",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_mid",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P041",
+    "name": "Shampoo 400ml",
+    "category": "Personal Care",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_top",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P042",
+    "name": "Conditioner 400ml",
+    "category": "Personal Care",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_top",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P043",
+    "name": "Body Wash",
+    "category": "Personal Care",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_mid",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P044",
+    "name": "Toothpaste",
+    "category": "Personal Care",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_mid",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P045",
+    "name": "Laundry Detergent 1L",
+    "category": "Household",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_mid",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P046",
+    "name": "Dish Soap",
+    "category": "Household",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_mid",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P047",
+    "name": "Paper Towels",
+    "category": "Household",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_bottom",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P048",
+    "name": "Toilet Paper 12 Pack",
+    "category": "Household",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_bottom",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P049",
+    "name": "Chicken Breast 1kg",
+    "category": "Meat & Seafood",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_bottom",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P050",
+    "name": "Ground Beef 500g",
+    "category": "Meat & Seafood",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_mid",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P051",
+    "name": "Salmon Fillet",
+    "category": "Meat & Seafood",
+    "aisle": "Aisle 2",
+    "node": "aisle_2_mid",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P052",
+    "name": "Turmeric Powder",
+    "category": "Spices",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_mid",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P053",
+    "name": "Black Pepper",
+    "category": "Spices",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_top",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P054",
+    "name": "Cumin Seeds",
+    "category": "Spices",
+    "aisle": "Aisle 1",
+    "node": "aisle_1_top",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P055",
+    "name": "Frozen Pizza",
+    "category": "Frozen Foods",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_bottom",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P056",
+    "name": "Ice Cream Vanilla 1L",
+    "category": "Frozen Foods",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_bottom",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P057",
+    "name": "Frozen Vegetables Mix",
+    "category": "Frozen Foods",
+    "aisle": "Aisle 4",
+    "node": "aisle_4_mid",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P058",
+    "name": "Glass Cleaner",
+    "category": "Cleaning Products",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_bottom",
+    "shelf": "Right Side"
+  },
+  {
+    "id": "P059",
+    "name": "Floor Cleaner 1L",
+    "category": "Cleaning Products",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_mid",
+    "shelf": "Left Side"
+  },
+  {
+    "id": "P060",
+    "name": "All-Purpose Cleaner",
+    "category": "Cleaning Products",
+    "aisle": "Aisle 3",
+    "node": "aisle_3_mid",
+    "shelf": "Right Side"
+  }
+]

@@ -1,0 +1,255 @@
+{
+  "nodes": {
+    "entrance": {
+      "name": "Main Entrance",
+      "x": 100,
+      "y": 500,
+      "type": "entrance"
+    },
+    "corridor_main": {
+      "name": "Main Corridor",
+      "x": 200,
+      "y": 500,
+      "type": "corridor"
+    },
+    "junction_1": {
+      "name": "Junction 1",
+      "x": 300,
+      "y": 500,
+      "type": "junction"
+    },
+    "junction_2": {
+      "name": "Junction 2",
+      "x": 500,
+      "y": 500,
+      "type": "junction"
+    },
+    "junction_3": {
+      "name": "Junction 3",
+      "x": 700,
+      "y": 500,
+      "type": "junction"
+    },
+    "junction_4": {
+      "name": "Junction 4",
+      "x": 900,
+      "y": 500,
+      "type": "junction"
+    },
+    "junction_top_1": {
+      "name": "Top Junction 1",
+      "x": 300,
+      "y": 200,
+      "type": "junction"
+    },
+    "junction_top_2": {
+      "name": "Top Junction 2",
+      "x": 500,
+      "y": 200,
+      "type": "junction"
+    },
+    "junction_top_3": {
+      "name": "Top Junction 3",
+      "x": 700,
+      "y": 200,
+      "type": "junction"
+    },
+    "junction_top_4": {
+      "name": "Top Junction 4",
+      "x": 900,
+      "y": 200,
+      "type": "junction"
+    },
+    "aisle_1_bottom": {
+      "name": "Aisle 1 Bottom",
+      "x": 300,
+      "y": 450,
+      "type": "aisle"
+    },
+    "aisle_1_mid": {
+      "name": "Aisle 1 Middle",
+      "x": 300,
+      "y": 350,
+      "type": "aisle"
+    },
+    "aisle_1_top": {
+      "name": "Aisle 1 Top",
+      "x": 300,
+      "y": 250,
+      "type": "aisle"
+    },
+    "aisle_2_bottom": {
+      "name": "Aisle 2 Bottom",
+      "x": 500,
+      "y": 450,
+      "type": "aisle"
+    },
+    "aisle_2_mid": {
+      "name": "Aisle 2 Middle",
+      "x": 500,
+      "y": 350,
+      "type": "aisle"
+    },
+    "aisle_2_top": {
+      "name": "Aisle 2 Top",
+      "x": 500,
+      "y": 250,
+      "type": "aisle"
+    },
+    "aisle_3_bottom": {
+      "name": "Aisle 3 Bottom",
+      "x": 700,
+      "y": 450,
+      "type": "aisle"
+    },
+    "aisle_3_mid": {
+      "name": "Aisle 3 Middle",
+      "x": 700,
+      "y": 350,
+      "type": "aisle"
+    },
+    "aisle_3_top": {
+      "name": "Aisle 3 Top",
+      "x": 700,
+      "y": 250,
+      "type": "aisle"
+    },
+    "aisle_4_bottom": {
+      "name": "Aisle 4 Bottom",
+      "x": 900,
+      "y": 450,
+      "type": "aisle"
+    },
+    "aisle_4_mid": {
+      "name": "Aisle 4 Middle",
+      "x": 900,
+      "y": 350,
+      "type": "aisle"
+    },
+    "aisle_4_top": {
+      "name": "Aisle 4 Top",
+      "x": 900,
+      "y": 250,
+      "type": "aisle"
+    },
+    "checkout_area": {
+      "name": "Checkout Area",
+      "x": 1050,
+      "y": 500,
+      "type": "checkout"
+    },
+    "customer_service": {
+      "name": "Customer Service",
+      "x": 1050,
+      "y": 350,
+      "type": "service"
+    }
+  },
+  "edges": {
+    "entrance": {
+      "corridor_main": 10.0
+    },
+    "corridor_main": {
+      "entrance": 10.0,
+      "junction_1": 10.0
+    },
+    "junction_1": {
+      "corridor_main": 10.0,
+      "junction_2": 20.0,
+      "aisle_1_bottom": 5.0,
+      "junction_top_1": 30.0
+    },
+    "junction_2": {
+      "junction_1": 20.0,
+      "junction_3": 20.0,
+      "aisle_2_bottom": 5.0,
+      "junction_top_2": 30.0
+    },
+    "junction_3": {
+      "junction_2": 20.0,
+      "junction_4": 20.0,
+      "aisle_3_bottom": 5.0,
+      "junction_top_3": 30.0
+    },
+    "junction_4": {
+      "junction_3": 20.0,
+      "checkout_area": 15.0,
+      "aisle_4_bottom": 5.0,
+      "junction_top_4": 30.0
+    },
+    "junction_top_1": {
+      "junction_1": 30.0,
+      "junction_top_2": 20.0,
+      "aisle_1_top": 5.0
+    },
+    "junction_top_2": {
+      "junction_top_1": 20.0,
+      "junction_top_3": 20.0,
+      "aisle_2_top": 5.0
+    },
+    "junction_top_3": {
+      "junction_top_2": 20.0,
+      "junction_top_4": 20.0,
+      "aisle_3_top": 5.0
+    },
+    "junction_top_4": {
+      "junction_top_3": 20.0,
+      "customer_service": 15.0,
+      "aisle_4_top": 5.0
+    },
+    "aisle_1_bottom": {
+      "junction_1": 5.0,
+      "aisle_1_mid": 10.0
+    },
+    "aisle_1_mid": {
+      "aisle_1_bottom": 10.0,
+      "aisle_1_top": 10.0
+    },
+    "aisle_1_top": {
+      "aisle_1_mid": 10.0,
+      "junction_top_1": 5.0
+    },
+    "aisle_2_bottom": {
+      "junction_2": 5.0,
+      "aisle_2_mid": 10.0
+    },
+    "aisle_2_mid": {
+      "aisle_2_bottom": 10.0,
+      "aisle_2_top": 10.0
+    },
+    "aisle_2_top": {
+      "aisle_2_mid": 10.0,
+      "junction_top_2": 5.0
+    },
+    "aisle_3_bottom": {
+      "junction_3": 5.0,
+      "aisle_3_mid": 10.0
+    },
+    "aisle_3_mid": {
+      "aisle_3_bottom": 10.0,
+      "aisle_3_top": 10.0
+    },
+    "aisle_3_top": {
+      "aisle_3_mid": 10.0,
+      "junction_top_3": 5.0
+    },
+    "aisle_4_bottom": {
+      "junction_4": 5.0,
+      "aisle_4_mid": 10.0
+    },
+    "aisle_4_mid": {
+      "aisle_4_bottom": 10.0,
+      "aisle_4_top": 10.0
+    },
+    "aisle_4_top": {
+      "aisle_4_mid": 10.0,
+      "junction_top_4": 5.0
+    },
+    "checkout_area": {
+      "junction_4": 15.0
+    },
+    "customer_service": {
+      "junction_top_4": 15.0
+    }
+  }
+}
